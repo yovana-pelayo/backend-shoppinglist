@@ -17,4 +17,9 @@ CREATE TABLE items (
   qty INT,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   FOREIGN KEY (user_id) REFERENCES users(id)
-)
+);
+
+INSERT INTO items (
+  description, bought ) 
+  VALUES ('carrots', 'false');
+  
