@@ -19,7 +19,5 @@ CREATE TABLE items (
   FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
-INSERT INTO items (
-  description, bought ) 
-  VALUES ('carrots', 'false');
+
   
